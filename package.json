@@ -13,6 +13,7 @@
 		"onCommand:jenkinsvalidate.validate"
 	],
 	"main": "./dist/extension.js",
+	"repository": "https://github.com/vaezc/JenkinsfileLinter",
 	"contributes": {
 		"commands": [
 			{
