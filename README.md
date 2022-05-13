@@ -1,16 +1,15 @@
-# jenkinsvalidate README
+# jenkinsvalidate
 
 用来验证JenkinsFile  语法的正确性
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+在设置中输入jenkins的url 需要是host地址：
+如：<http://localhost:8080/>
 
-For example if there is an image subfolder under your extension project workspace:
+设置中输入jenkins的用户名和密码
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+通过在jenkinsfile 中使用command+p 然后输入validate jenkinsfile 即可
 
 ### 1.0.0
 

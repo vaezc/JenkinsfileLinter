@@ -41,14 +41,16 @@ export function activate(context: vscode.ExtensionContext) {
     const status = await response.status;
 
     if (status !== 200) {
-      output.append(status.toString());
+      output.appendLine(status.toString());
     }
 
     if (data) {
       console.log(data);
-      output.append(data);
+      output.appendLine(data);
     }
   });
+
+  output.show(true);
 
   let disposable = vscode.commands.registerCommand(
     "jenkinsvalidate.validate",
