@@ -9,7 +9,7 @@
 
 设置中输入jenkins的用户名和密码
 
-通过在jenkinsfile 中使用command+p 然后输入validate jenkinsfile 即可
+通过在jenkinsfile 中使用command+ shift + p 然后输入validate jenkinsfile 即可
 
 ### 1.0.0
 
